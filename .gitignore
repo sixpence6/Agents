@@ -1,0 +1,106 @@
+# 本项目只提交源代码和必要的项目文档。
+# 构建中间产物、依赖、缓存、运行时输出、本地环境配置和敏感信息不上传。
+
+# 本地环境配置与敏感信息
+.env
+.env.*
+*.local
+*.secret
+secrets/
+config/local/
+config/*.local.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# 依赖与包管理器缓存
+node_modules/
+.pnpm-store/
+.yarn/
+vendor/
+
+# JavaScript / TypeScript 构建产物与缓存
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.parcel-cache/
+.vite/
+.cache/
+*.map
+
+# Python 缓存、虚拟环境与测试缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Java / Kotlin / Gradle / Maven 构建产物
+.gradle/
+target/
+*.class
+
+# .NET / Visual Studio 构建产物与本地状态
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Go / Rust / C / C++ 构建产物与工具生成文件
+*.test
+target/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+
+# 测试、覆盖率和运行时输出
+.test-results/
+test-results/
+playwright-report/
+blob-report/
+logs/
+*.log
+*.pid
+*.tmp
+*.temp
+.tmp/
+tmp/
+temp/
+
+# 编辑器、IDE 与操作系统文件
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
